@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:shadow="http://btbu.cn"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/white"
+    android:orientation="horizontal" >
+
+    <HorizontalScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:padding="8dp" >
+
+            <cn.btbu.netlogin.view.MyImageView
+                android:id="@+id/iv_show1"
+                android:layout_width="100px"
+                android:layout_height="150px"
+                shadow:Color="GRAY"
+                android:src="@drawable/background1" />
+
+            <cn.btbu.netlogin.view.MyImageView
+                android:id="@+id/iv_show2"
+                android:layout_width="100px"
+                android:layout_height="150px"
+                android:layout_marginLeft="5dp"
+                shadow:Color="GRAY"
+                android:scaleType="fitXY"
+                android:src="@drawable/background2" />
+
+            <cn.btbu.netlogin.view.MyImageView
+                android:id="@+id/iv_show3"
+                android:layout_width="100px"
+                android:layout_height="150px"
+                android:layout_marginLeft="5dp"
+                shadow:Color="GRAY"
+                android:scaleType="fitXY"
+                android:src="@drawable/background3" />
+            
+            <cn.btbu.netlogin.view.MyImageView
+                android:id="@+id/iv_show4"
+                android:layout_width="100px"
+                android:layout_height="150px"
+                android:layout_marginLeft="5dp"
+                shadow:Color="GRAY"
+                android:scaleType="fitXY"
+                android:src="@android:color/black" />
+        </LinearLayout>
+    </HorizontalScrollView>
+
+</LinearLayout>

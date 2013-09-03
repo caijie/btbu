@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">上网登陆</string>
+    <string name="start_connect">开始连接</string>
+    <string name="modify_pw">修改密码</string>
+    <string name="off_line">断开</string>
+    <string name="search">查询</string>
+    <string name="username">账号 : </string>
+    <string name="password">密码 : </string>
+    <string name="success_login_code">S201</string>
+    <string name="error_up_code">E002</string>
+    <string name="error_fee_code">E008</string>
+    <string name="error_count_online_code">E005</string>
+    <string name="error_iporservice_code">E012</string>
+    <string name="success_off_line_code">S200</string>
+    
+    
+    <string name="success_login_content">您已经和网络建立连接！</string>
+    <string name="use_time">当前使用时间  ：</string>
+    <string name="minix">最小化</string>
+    <string name="quit">退出</string>
+    <string name="choose_action">请选择您的操作</string>
+    <string name="sure">确定</string>
+    <string name="cancel">取消</string>
+    <string name="forcelogout">下线</string>
+    
+    <string name="success_login_message">登陆成功</string>
+    <string name="error_up_message">帐号或密码错误</string>
+    <string name="error_fee_message">费用不足</string>
+    <string name="error_count_online_message">此帐号已在线</string>
+    <string name="error_iporservice_message">服务器忙或IP不正确!</string>
+    <string name="success_off_line_message">成功断开外网</string>
+    <string name="fail_off_line_message">网络连接已断开</string>
+    <string name="error_internet">网络连接异常，请检查网络</string>
+    <string name="init_time">当前使用时间  ：00:00:00</string>
+    <string name="countsearch">帐号查询</string>
+    <string name="newpassword">新密码</string>
+    <string name="confimpassword">确认您的新密码</string>
+    <string name="passwordnotequal">两次密码输入不一致</string>
+    <string name="wifimessage">系统检测到您的没有连接WIFI，是否连接?</string>
+    <string name="yes">是</string>
+    <string name="no">否</string>
+    <string name="offline">网络已断开</string>
+    <string name="online">网络已连接</string>
+    <string name="sendrequest">正在向服务器发送请求</string>
+    <string name="off_autooffline">定时断网已关闭</string>
+    <string name="btbu_netlogin">北京工商大学网络登陆 1.0.15</string>
+    <string name="email">E-mail:zhangcaijie90@163.com</string>
+    <string name="appreciate">(感谢liuyy同学所做的一切基础工作)</string>
+    
+    <string name="cc_1">流量 (0.05元/M)</string>
+    <string name="cc_2">计时 (0.5元/小时，限250M流量)</string>
+    <string name="cc_3">10元包月 (限8G流量)</string>
+    <string name="cc_4">20元包月 (限20G流量)</string>
+    <string name="cc_5">远程强制下线</string>
+    
+    <string name="choosecategory">选择资费类型：</string>
+    <string name="notice">更改帐号计费方式(限在校生)-本月申请，下月生效</string>
+    <string name="changecountcategory">更改帐号计费方式(限在校生)</string>
+    <string name="force">远程强制下线</string>
+    <string name="noti">提示</string>
+    <string name="onlinetoo">此帐号已在线，是否强制其下线?</string>
+    <string name="yesss">是（慎用）</string>
+    
+</resources>
